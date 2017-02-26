@@ -1,8 +1,12 @@
 .logo-picture {
- text-align: center;
  width: 320px;
- height: 250px;
- padding-top: 50px;
+ margin-right: auto;
+ margin-left: auto;
+ padding-top: 35px;
+}
+
+.logo-slika {
+  width: 100%;
 }
 
 .middle {
@@ -132,4 +136,13 @@ textarea.form-control{
   background-color: #3B5998;
   font-size: 40px;
   color: white;
+}
+
+@media (max-width: 766px) {
+.navigacija {
+   position: relative;
+}
+.logo-picture {
+   width: 200px;
+}
 }
