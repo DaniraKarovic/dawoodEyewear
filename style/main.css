@@ -1,85 +1,4 @@
-.logo-picture {
- width: 320px;
- margin-right: auto;
- margin-left: auto;
- padding-top: 35px;
-}
-
-.logo-slika {
-  width: 100%;
-}
-
-.middle {
-  text-align: center;
-}
-.contact-box {
-  padding-top: 40px;
-}
-.naslovni-tekst {
-  margin-left: 500px;
-  margin-right: 500px;
-  font-size: 20px;
-}
-.contact-picture {
-  width: 100%;
-  height: 300px;
- background-image: url("http://www.thefashionglobe.com/wp-content/uploads/2013/08/zerezes_wooden_glasses100913486.jpg");
- background-size: cover;
-}
-.home-intro {
-  margin-left: 100px;
-  margin-right: 100px;
-  font-size: 20px;
-  padding-top: 50px;
-}
-
-.brand {
-  width: 50px;
-  height: 40px;
-  padding-bottom: 10px;
-}
-body{
-	width:100%;
-	height:100%;
-	font-family: 'Roboto Condensed', sans-serif;
-
-}
-
-h1,h2,h3 {
-	margin:0 0 35px 0;
-	font-family: 'Patua One', cursive;
-	text-transform: uppercase;
-	letter-spacing:1px;
-}
-
-p{
-	margin:0 0 25px;
-	font-size:18px;
-	line-height:1.6em;
-}
-a{
-	color:#26a5d3;
-}
-a:hover,a:focus{
-	text-decoration:none;
-	color:#26a5d3;
-}
-.footer {
-  background-color: #eee;
-  margin-bottom: 0px;
-}
-#contact{
-	background:white;
-	color: 686868;
-	padding-bottom:80px;
-}
-
-textarea.form-control{
-    height:100px;
-}
-
-
-
+/*// Socijalni linkovi*/
 .social {
   position: relative;
   width: 100%;
@@ -91,8 +10,8 @@ textarea.form-control{
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: 2px dashed white;
   background-clip: content-box;
@@ -121,28 +40,49 @@ textarea.form-control{
 }
 
 .social .link.instagram {
-  background-color: #9B6752;
+  background-color: #4A281E;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
 }
 
-.social .link.etsy {
-  background-color: #FC8939;
+.social .link.mail {
+  background-color: #A31613;
   font-size: 30px;
   color: white;
 }
 
 .social .link.facebook {
-  background-color: #3B5998;
-  font-size: 40px;
+  background-color: #012677;
+  font-size: 30px;
   color: white;
 }
 
-@media (max-width: 766px) {
-.navigacija {
-   position: relative;
+
+/*// Socijalni l*/
+
+.mainlogo {
+  height: 250px;
+  weight: auto;
 }
-.logo-picture {
-   width: 200px;
+
+.middlebox {
+  text-align: center;
+  padding-top: 120px;
+  padding-top: 120px;
+
 }
+.backgroundideas {
+background-image: linear-gradient( rgba(0,0,0,0.3), rgba(0,0,0,0.3) ), url("../images/profil.jpg");
+background-size: cover;
+}
+
+.shorttext {
+  font-family: 'Patua One', cursive;
+  color: #EEECED;
+  font-size: 30px;
+}
+
+.ikone {
+  padding-top: 15px;
+  padding-bottom: 120px;
 }
