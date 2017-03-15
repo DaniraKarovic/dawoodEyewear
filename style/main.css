@@ -87,9 +87,9 @@ background-size: cover;
   padding-bottom: 120px;
 }
 
-@media (max-width : 400px) {
+@media (max-width : 320px) {
   .mainlogo {
-    height: auto;
-    weight: 100px;
+    height: 120px;
+    weight: auto;
   }
 }
