@@ -68,7 +68,7 @@
 .middlebox {
   text-align: center;
   padding-top: 120px;
-  padding-top: 120px;
+  padding-bottom: 120px;
 
 }
 .backgroundideas {
@@ -85,4 +85,11 @@ background-size: cover;
 .ikone {
   padding-top: 15px;
   padding-bottom: 120px;
+}
+
+@media (max-width : 400px) {
+  .mainlogo {
+    height: auto;
+    weight: 100px;
+  }
 }
