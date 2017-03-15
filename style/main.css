@@ -62,7 +62,7 @@
 
 .mainlogo {
   height: 250px;
-  weight: auto;
+  width: auto;
 }
 
 .middlebox {
@@ -90,6 +90,6 @@ background-size: cover;
 @media (max-width : 320px) {
   .mainlogo {
     height: 150px;
-    weight: auto;
+    width: auto;
   }
 }
